@@ -160,7 +160,7 @@ br.clear {
 } 
 #spotlight header nav ul li a {
 	font-size: 14px;
-	font-weight: bold;
+	
 	color:white;
 	display: inline-block;
 } 
@@ -168,7 +168,9 @@ br.clear {
 	
 } 
 #spotlight header nav div a i.fa-search {
-	color: seashell; 
+	color: rgb(56, 165, 83); 
+	background: white;
+	padding: 8px 8px;
 
 }
 #spotlight div.content {
@@ -180,6 +182,7 @@ br.clear {
 }
 #spotlight div.content a{
 	margin: 0 auto;	
+	display: inline-block;
 }
 #spotlight div.content a.icon-left {
 	position: absolute;
@@ -220,7 +223,7 @@ br.clear {
 }
 section.wrapper div.content ul li a {
 	margin-top: 20px;
-	width:20px;
+	/* width:20px; */
 	padding: 50px;
 }
 section.wrapper div.content ul li a.button {
@@ -259,6 +262,32 @@ section.wrapper div.content ul li a.submit {
 @media all and (max-width:640px){
 	#spotlight header nav ul li a{
 		display: none;
+	}
+}
+@media all and (max-width:480px){
+	#spotlight div.content {
+		padding: 84px 0;
+	}
+	#spotlight div.content h1 {
+		font-size: 18px;
+	}
+	#spotlight div.content h3 {
+		font-size: 25px;
+	}
+	#spotlight div.content ul {
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	#spotlight div.content ul li {
+		margin-bottom: 20px;
+		margin-right: 0px;
+	}
+	#spotlight div.content ul li a {
+		width: 100%;
+		text-align: center;
+	}
+	#spotlight div.content ul li {
+		width: 100%;
 	}
 }
 
