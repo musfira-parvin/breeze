@@ -1,0 +1,268 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+	background-image: url("../images/slide-01.jpg");
+}
+input,textarea,select{
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "GT-Eesti", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1040px;
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+::placeholder {
+  color: #C0CCDA;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #C0CCDA;
+}
+
+::-ms-input-placeholder {
+  color: #C0CCDA;
+}
+
+:root {
+  --main-bg-color: #23D3D3;
+  --main-heading-color:#1C2C40;
+}
+#spotlight {
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+}
+#spotlight .wrapper {
+}
+#spotlight header {
+	margin: 0 auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	align-items: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+#spotlight header h1 {
+	width: 100px;
+	font-weight: bold;
+	color:white;
+}
+#spotlight header h1 a {
+	width: 100%;
+	display: block;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+}
+#spotlight header nav {
+	display: flex;
+	align-items: center;
+}
+#spotlight header nav ul {
+	display: flex;
+}
+#spotlight header nav ul li {
+	margin-right: 8px;
+	text-transform: uppercase;	
+} 
+#spotlight header nav ul li :last-child {
+	margin-right: 0;
+} 
+#spotlight header nav ul li a {
+	font-size: 14px;
+	font-weight: bold;
+	color:white;
+	display: inline-block;
+} 
+.fa-search {
+	
+} 
+#spotlight header nav div a i.fa-search {
+	color: seashell; 
+
+}
+#spotlight div.content {
+	padding: 100px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+#spotlight div.content a{
+	margin: 0 auto;	
+}
+#spotlight div.content a.icon-left {
+	position: absolute;
+	left: -5%;
+	top: 50%;
+}
+.fa-angle-left {
+	color: aquamarine;
+}
+#spotlight div.content a.icon-right {
+	position: absolute;
+	right: -5%;
+	top: 50%;
+}
+.fa-angle-right {
+	color: aquamarine;
+}
+#spotlight div.content h3 {
+	text-transform: capitalize;
+	margin: 20px 0;
+	color: white;
+	font-size: 30px;
+}
+#spotlight div.content h1 {
+	align-items:center ;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+}
+#spotlight div.content ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+}
+#spotlight div.content ul li {
+	margin-right: 24px;
+}
+section.wrapper div.content ul li a {
+	margin-top: 20px;
+	width:20px;
+	padding: 50px;
+}
+section.wrapper div.content ul li a.button {
+	align-items:center ;
+	text-transform: uppercase;	
+	border-radius: 20px;
+	border:1px solid white;
+	padding: 10px 10px;
+	color: white;
+}
+section.wrapper div.content ul li a.submit {
+	align-items:center ;
+	text-transform: uppercase;
+	border-radius: 20px;
+	border:1px solid white;
+	padding: 10px 10px;
+	color: green;
+	background:white;
+}
+#spotlight div.arrow {
+	height: 100px;
+}
+#spotlight div.arrow a .fa-arrow-alt-down {
+	/* position: absolute;
+	top: 90%;
+	left: 50%; */
+	border-radius: 10px;
+	color:#5fb759;
+	font-size: 30px;
+}
+@media all and (max-width:560px){
+	#spotlight header nav ul li a{
+		margin-right: 4px;
+	}
+}
+@media all and (max-width:640px){
+	#spotlight header nav ul li a{
+		display: none;
+	}
+}
+
+
+
+
+
